@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>smart-dp-combination</artifactId>
+    <artifactId>smart-dp-builder</artifactId>
 
-    <description>组合模式</description>
+    <description>建造者模式</description>
 
 
 </project>

@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>smart-dp-combination</artifactId>
+    <artifactId>smart-dp-singleton</artifactId>
 
-    <description>组合模式</description>
+    <description>单例模式</description>
 
 
 </project>

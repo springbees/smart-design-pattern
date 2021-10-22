@@ -9,8 +9,20 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <!--创建型模式  -->
+        <module>smart-dp-builder</module>
+        <module>smart-dp-factory</module>
+        <module>smart-dp-prototype</module>
+        <module>smart-dp-singleton</module>
+        <!--结构型模式-->
         <module>smart-dp-bridging</module>
-        <module>smart-db-combination</module>
+        <module>smart-dp-adapter</module>
+        <module>smart-dp-combination</module>
+        <module>smart-dp-proxy</module>
+        <module>smart-dp-decorate</module>
+        <module>smart-dp-facade</module>
+        <module>smart-dp-flyweight</module>
+        <!--行为型模式-->
     </modules>
 
     <properties>
@@ -29,6 +41,16 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.5.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+            <version>2.4.5</version>
         </dependency>
     </dependencies>
 

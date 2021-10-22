@@ -11,6 +11,8 @@
 
     <artifactId>smart-dp-bridging</artifactId>
 
+    <description>桥接模式</description>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
