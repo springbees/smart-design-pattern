@@ -1,5 +1,8 @@
 package com.smartfrank.pattern.decorate;
 
+import com.smartfrank.pattern.decorate.example.BmwCarComponent;
+import com.smartfrank.pattern.decorate.example.Car;
+import com.smartfrank.pattern.decorate.example.CarComponent;
 import org.junit.Test;
 
 /**
@@ -13,7 +16,9 @@ import org.junit.Test;
 public class DecorateTest {
 
     @Test
-    public void decorateTest(){
-
+    public void decorateTest() {
+        //构造一辆Bwm品牌车
+        Car car = new BmwCarComponent(new CarComponent());
+        car.build();
     }
 }
