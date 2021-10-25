@@ -1,10 +1,12 @@
 package com.smartfrank.pattern.adapter;
 
 import cn.hutool.json.JSONUtil;
-import com.smartfrank.pattern.adapter.mq.Account;
-import com.smartfrank.pattern.adapter.service.OrderAdapterService;
-import com.smartfrank.pattern.adapter.service.impl.InsideOrderAdapterService;
-import com.smartfrank.pattern.adapter.service.impl.POPOrderAdapterServiceImpl;
+import com.smartfrank.pattern.adapter.example.AdapterVoltage;
+import com.smartfrank.pattern.adapter.example.SourceVoltage;
+import com.smartfrank.pattern.adapter.example.TargetVoltage;
+import com.smartfrank.pattern.adapter.message.Account;
+import com.smartfrank.pattern.adapter.message.MessageAdapter;
+import com.smartfrank.pattern.adapter.message.MessageInfo;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
@@ -46,10 +48,9 @@ public class AdapterAptTest {
 
         System.out.println("");
 
-        OrderAdapterService popOrderAdapterService = new POPOrderAdapterServiceImpl();
-        System.out.println("判断首单，接口适配(POP)：" + popOrderAdapterService.isFirst("100001"));
 
-        OrderAdapterService insideOrderService = new InsideOrderAdapterService();
-        System.out.println("判断首单，接口适配(自营)：" + insideOrderService.isFirst("100001"));
+        TargetVoltage targetVoltage = new AdapterVoltage(new SourceVoltage());
+        System.out.println("输出电压：" + targetVoltage.convert() + "V");
+
     }
 }

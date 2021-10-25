@@ -1,4 +1,4 @@
-package com.smartfrank.pattern.adapter;
+package com.smartfrank.pattern.adapter.message;
 
 import cn.hutool.json.JSONUtil;
 
