@@ -23,6 +23,7 @@
         <module>smart-dp-facade</module>
         <module>smart-dp-flyweight</module>
         <module>smart-dp-chain</module>
+        <module>smart-dp-observation</module>
         <!--行为型模式-->
     </modules>
 
