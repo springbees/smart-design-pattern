@@ -22,9 +22,11 @@
         <module>smart-dp-decorate</module>
         <module>smart-dp-facade</module>
         <module>smart-dp-flyweight</module>
+        <!--行为型模式-->
         <module>smart-dp-chain</module>
         <module>smart-dp-observation</module>
-        <!--行为型模式-->
+        <module>smart-dp-strategy</module>
+
     </modules>
 
     <properties>
