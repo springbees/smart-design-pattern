@@ -20,7 +20,7 @@ public class StrategyContext {
      * 执行业务
      */
     public void strategyMethod() {
-        strategy.bizService();
+        strategy.execute();
     }
 
     public void setStrategy(Strategy strategy) {

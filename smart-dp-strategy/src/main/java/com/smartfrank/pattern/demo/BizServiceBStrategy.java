@@ -10,7 +10,7 @@ package com.smartfrank.pattern.demo;
  */
 public class BizServiceBStrategy implements Strategy{
     @Override
-    public void bizService() {
+    public void execute() {
         System.out.println("====执行Biz B业务=====");
     }
 }

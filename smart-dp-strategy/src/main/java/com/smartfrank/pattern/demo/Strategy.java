@@ -13,5 +13,5 @@ public interface Strategy {
     /**
      * 抽象业务方法
      */
-    void bizService();
+    void execute();
 }
