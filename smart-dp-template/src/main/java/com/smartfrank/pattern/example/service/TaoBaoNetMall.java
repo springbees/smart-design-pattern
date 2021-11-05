@@ -1,9 +1,8 @@
 package com.smartfrank.pattern.example.service;
 
 
-import cn.hutool.json.JSON;
 import cn.hutool.json.JSONUtil;
-import com.smartfrank.pattern.example.NetMall;
+import com.smartfrank.pattern.example.AbstractNetMall;
 import com.smartfrank.pattern.example.util.HttpClient;
 import sun.misc.BASE64Encoder;
 
@@ -12,7 +11,15 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TaoBaoNetMall extends NetMall {
+/**
+ * Description: 模拟淘宝商品海报生成实现
+ * <br/>
+ * TaoBaoNetMall
+ *
+ * @author laiql
+ * @date 2021/11/5 11:52
+ */
+public class TaoBaoNetMall extends AbstractNetMall {
 
     public TaoBaoNetMall(String uId, String uPwd) {
         super(uId, uPwd);

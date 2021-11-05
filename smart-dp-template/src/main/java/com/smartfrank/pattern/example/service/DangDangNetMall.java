@@ -1,7 +1,7 @@
 package com.smartfrank.pattern.example.service;
 
 import cn.hutool.json.JSONUtil;
-import com.smartfrank.pattern.example.NetMall;
+import com.smartfrank.pattern.example.AbstractNetMall;
 import com.smartfrank.pattern.example.util.HttpClient;
 import sun.misc.BASE64Encoder;
 
@@ -10,7 +10,15 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class DangDangNetMall extends NetMall {
+/**
+ * Description: 模拟当当商城实现
+ * <br/>
+ * DangDangNetMall
+ *
+ * @author laiql
+ * @date 2021/11/5 11:53
+ */
+public class DangDangNetMall extends AbstractNetMall {
 
     public DangDangNetMall(String uId, String uPwd) {
         super(uId, uPwd);

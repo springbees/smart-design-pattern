@@ -16,14 +16,14 @@ import java.util.Map;
  * @author laiql
  * @date 2021/11/5 10:29
  */
-public abstract class NetMall {
+public abstract class AbstractNetMall {
 
-    protected Logger logger = LoggerFactory.getLogger(NetMall.class);
+    protected Logger logger = LoggerFactory.getLogger(AbstractNetMall.class);
 
     String uId;   // 用户ID
     String uPwd;  // 用户密码
 
-    public NetMall(String uId, String uPwd) {
+    public AbstractNetMall(String uId, String uPwd) {
         this.uId = uId;
         this.uPwd = uPwd;
     }
@@ -48,5 +48,4 @@ public abstract class NetMall {
 
     // 生成商品海报信息
     protected abstract String createBase64(Map<String, String> goodsInfo);
-
 }
