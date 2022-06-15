@@ -28,6 +28,7 @@
         <module>smart-dp-strategy</module>
         <module>smart-dp-template</module>
         <module>smart-dp-state</module>
+        <module>smart-dp-pipeline</module>
 
     </modules>
 
