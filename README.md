@@ -137,6 +137,12 @@
   [源码地址](https://github.com/Jacklinsir/smart-design-pattern/tree/main/smart-dp-chain)
 
   [文章地址](https://blog.csdn.net/qq_21077715/article/details/121099713)
+  
+- 管道模式（Pipeline Pattern）
+
+  [源码地址](https://github.com/Jacklinsir/smart-design-pattern/tree/main/smart-dp-pipeline)
+
+  [文章地址](https://blog.csdn.net/qq_21077715/article/details/125293748)
 
 - 命令模式（Command）
 

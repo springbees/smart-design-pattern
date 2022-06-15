@@ -1,7 +1,5 @@
 package com.smartfrank.pattern.pipeline.context;
 
-import com.smartfrank.pattern.pipeline.context.PipelineContext;
-
 import java.util.Map;
 
 /**
